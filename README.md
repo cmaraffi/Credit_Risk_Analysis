@@ -8,7 +8,7 @@ Oversampling Methods
 Each of these methods tried to add towards the minority class, high-risk, in order to make the test fairer.
 
 #### Naive Random Oversampling
-oversample_longregress.PNG
+![](oversample_longregress.PNG)
 
 Accuracy score: 66%
 True Positives: 78
@@ -19,7 +19,7 @@ False Negatives: 23
 This test performed average with low precision on high-risk loans and perfect precision on low-risk loans. Recall on both classes were middling with 0.77 low-risk and 0.54 high-risk. Its true positives meaning it predicted high-risk on actual high-risk loans ranked about second out of the tests however the amount of false positives (Predicting high-risk, actually low-risk) is pretty high.
 
 #### Synthetic Minority Oversampling Technique (SMOTE)
-smote_logregress.PNG
+![](smote_logregress.PNG)
 
 Accuracy score: 66%
 True Positives: 64
@@ -33,7 +33,7 @@ This test performed similarly to Random Oversampling with low precision on high-
 This test attempted to take away from the majority class, low-risk, instead.
 
 #### Cluster Centroid Undersampling
-cluster_logregress.PNG
+![](cluster.PNG)
 
 Accuracy score: 54%
 True Positives: 68
